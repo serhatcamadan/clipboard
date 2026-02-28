@@ -4,12 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../dist/output.css" rel="stylesheet">
-    <title>Tailwind v4 Template</title>
+    <title>Clipboard</title>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <div class="text-center p-10 bg-white rounded-xl shadow-2xl">
-        <h1 class="text-4xl font-extrabold text-blue-600">Başardın! 🚀</h1>
-        <p class="text-gray-500 mt-4">Tailwind v4 CLI ve Mac terminali ile kuruldu.</p>
-    </div>
+<body class="bg-mobile bg-no-repeat bg-contain md:bg-desktop">
+    <!-- Hero Section -->
+     <section id="hero">
+        <div class="section-container mb-40 pt-16">
+            <img src="images/logo.svg" alt="" class="mx-auto my-16">
+
+            <h3>
+                A history of everything you copy
+            </h3>
+
+            <p class="max-w-3xl mx-auto mb-10 text-2xl text-grayish-blue">
+                Clipboard allows you to track and 
+                organize everything you copy. Instantly
+                access your clipboard on all your devices.
+            </p>
+
+            <!-- Button Container -->
+             <div class="button-container">
+                <a href="" 
+                class="p-4 px-8 rounded-full shadow-lg bg-strongy-cyan duration-200 hover:opacity-80">
+                    Download for iOS
+                </a>
+                    <a href="" 
+                class="p-4 px-8 rounded-full shadow-lg bg-light-blue duration-200 hover:opacity-80">
+                    Download for Mac
+                </a>
+             </div>
+        </div>
+     </section>
+
+
+     <!-- Snippets Section -->
+    <section id="snippets">
+        <div class="section-container my-20">
+            <h3>
+                Keep track of your snippets
+            </h3>
+            <p class="max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-grayish-blue">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, doloribus, sed autem numquam illum optio voluptate dolores enim quasi at modi minus non assumenda sunt sit reprehenderit soluta omnis culpa architecto magni! Vitae animi, magnam ea debitis asperiores laboriosam eum.
+            </p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+     <section id="features">
+        <div class="section-container my-20">
+            <div class="relative flex flex-col md:flex-row md:space-x-32">
+                <!-- Image-->
+                 <div class="md:w-1/2">
+                    <img src="images/image-computer.png" 
+                    alt="" 
+                    class="md:absolute top-0 right-[50%]">
+                 </div>
+
+                <!-- Items Container -->
+                 <div 
+                 class="flex flex-col mt-16 mb-24 space-y-12 text-xl md:mb-60 md:text-left md:pl-16 md:w-1/2">
+                <!-- Item 1 -->
+                <div>
+                    <h5 class="mb-2 text-2xl font-bold text-dark-grayis-blue">
+                    Quick Search
+                    </h5>
+                    <p class="max-w-md text-grayish-blue">
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, inventore.
+                    </p>
+                </div>
+
+                <!-- Item 2 -->
+                <div>
+                    <h5 class="mb-2 text-2xl font-bold text-dark-grayis-blue">
+                    iCloud Sync
+                    </h5>
+                    <p class="max-w-md text-grayish-blue">
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, inventore.
+                    </p>
+                </div>
+                <!-- Item 3 -->
+                <div>
+                    <h5 class="mb-2 text-2xl font-bold text-dark-grayis-blue">
+                    Completely History
+                    </h5>
+                    <p class="max-w-md text-grayish-blue">
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, inventore.
+                    </p>
+                 </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Access Anywhere Section -->
+      <section id="access">
+        <div class="section-container my-20">
+            <h3>Access Clipboard anywhere</h3>
+            <p class="max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-grayish-blue">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Esse iste libero omnis, ab error possimus laborum minus vel
+                 praesentium ducimus?
+            </p>
+            
+            <img src="images/image-devices.png" alt="" class="mx-auto">
+        </div>
+      </section>
+
+
 </body>
 </html>

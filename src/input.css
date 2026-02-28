@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+@theme {
+  /* Breakpoints (Ekran Boyutları) */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px;
+  --breakpoint-xl: 1440px;
+
+  /* Özel Renkler */
+  --color-strongy-cyan: hsl(171, 66%, 44%);
+  --color-light-blue: hsl(233, 100%, 69%);
+  --color-dark-grayis-blue: hsl(210, 10%, 33%);
+  --color-grayish-blue: hsl(201, 11%, 66%);
+
+  /* Font Ailesi */
+  --font-sans: "Bai Jamjuree", sans-serif;
+
+  /* Backgrounds */
+  --background-image-desktop: url('../src/images/bg-header-desktop.png');
+  --background-image-mobile: url('../src/images/bg-header-mobile.png');
+
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto text-center px-10;
+}
+
+h3 {
+  @apply mb-8 text-4xl font-bold text-dark-grayis-blue md:text-5xl;
+}
+
+.button-container {
+  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
